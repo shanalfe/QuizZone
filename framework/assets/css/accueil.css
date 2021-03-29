@@ -1,0 +1,134 @@
+h1{
+    font-family:Comic Sans MS;
+    text-align: center;
+  	color:white;
+    font-size: 50px;
+    background-color: rgb(209, 153, 252);
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+footer{
+    display: inline-flex;
+    padding-top: 25px;
+    background-color:papayawhip;
+    width: 100%;
+    margin-top: 440px;
+    }
+
+footer p, footer ul{
+    font-size: 1em;
+}
+
+
+footer p {
+	margin-left: 4%;
+    margin-top:1%;  
+	color: black;
+	padding-bottom: 30px;
+}
+
+
+
+/* Navigation */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Comic Sans MS;
+}
+
+nav{
+    width: 100%;
+    background-color: papayawhip;
+    text-align: center;
+    margin-top: 0%;
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+nav ul li{
+    float: none;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+
+}
+
+nav a:hover{
+    color: red;
+    border-bottom: 3px solid gold;
+    width: 100%;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background-color: papayawhip;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+   
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    
+    background-color: RGB(200,200,200);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 10px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+
+.bouton_rouge{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img{
+    border: 0;
+}
